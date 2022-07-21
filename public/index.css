@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #2F243A;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container {
+    width: 1000px;
+}
+
+header h1 {
+    color: #058ed9;
+}
+
+.submitBtn {
+    background-color: #058ed9;
+}
+
+input[type=text] {
+    background-color: #BEBBBB;
+}
+
+input {
+    display: block;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+
+#chat {
+    margin-top: 20px;
+    background-color: #444054;
+    width: 100%;
+}
+
+#messages {
+    height: 200px;
+}
+
+#productsTable {
+    margin-top: 20px;
+    background-color: #444054;
+    width: 100%;
+}
+
+#productsTable td {
+    width: 150px;
+    padding: 10px;
+}
+
+.price {
+    text-align: center;
+}
+
+.msgUser {
+    font-weight: bold;
+    color: lightblue;
+}
+
+.msgTime {
+    color: brown;
+}
+
+.msgBody {
+    color: greenyellow;
+}

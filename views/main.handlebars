@@ -1,0 +1,33 @@
+<div id="container">
+    <header>
+        <h1>Coderhouse</h1>
+        <h3>Crea un nuevo item</h3>
+    </header>
+    <form id="submitForm">
+        <label for="itemTitle">Título</label>
+        <input id="itemTitle" type="text" name="title">
+        <label for="itemPrice">Precio</label>
+        <input id="itemPrice" type="text" name="price">
+        <label for="itemThumbnail">Imagen</label>
+        <input id="itemThumbnail" type="text" name="thumbnail">
+        <input class="submitBtn" type="submit" value="Crear producto">
+    </form>
+    <h3>Chat de soporte</h3>
+    <div id="chat">
+        <input type="text" placeholder="user@mail.com" name="email" id="email">
+        <div id="messages"></div>
+        <form id="submitMessage">
+            <input type="text" name="message">
+            <input id="submitMsgBtn" class="submitBtn" type="submit" value="Enviar!" disabled>
+        </form>
+    </div>
+    <h3>Lista de productos</h3>
+    <table id="productsTable">
+        <thead>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+        </thead>
+        <tbody id="products"> </tbody>
+    </table>
+</div>
